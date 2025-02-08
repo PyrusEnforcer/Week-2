@@ -21,3 +21,5 @@ const instanceOptions = {
   id: 'targetEl',
   override: true
 };
+
+document.getElementById('getyear').innerText = new Date().getFullYear();
